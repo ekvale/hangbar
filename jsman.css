@@ -1,0 +1,76 @@
+body { 
+  background-image: url("grass.jpg"); 
+  background-size: cover;
+ }
+body, .jumbotron { 
+  padding: 15px;
+  color: white;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height: 300px;
+    color: black;
+    text-shadow: black 0.4em 0.4em 0.4em;
+    background: url("yellowpaper.jpg");
+    position: relative;
+    /* Z-index specifies stacking order */
+    z-index: -2;
+    box-shadow: 0 8px 16px -6px white;
+    font-family: "Luckiest Guy";
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 1em 1em 1em 1em;
+
+  }
+  .text-giant { font-size: 20px; }
+  .jumbotron {
+    border-radius: 120px;
+
+  }
+  h3, h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: "Luckiest Guy";
+  }
+h3 { font-style: italic;
+  }
+#hangdraw {
+    width: 2em;
+    height: 3em;
+    font-family: "Luckiest Guy";
+    font-size: 32px;
+    
+  }
+#pic {
+  width: 600px;
+  height: 800px;
+  position: absolute;
+  left: 1300;
+  top: 500;
+}
+
+.myButton {
+  font-size: 20em;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+#arrow { 
+  margin-left: 10px;
+  margin-bottom: 120px;
+  -webkit-transform: rotate(270deg);     /* Chrome and other webkit browsers */
+  -moz-transform: rotate(270deg);        /* FF */
+  -o-transform: rotate(270deg);          /* Opera */
+  -ms-transform: rotate(270deg);         /* IE9 */
+  transform: rotate(270deg);             /* W3C compliant browsers */
+
+ }
+
+#input {
+  float: center;
+  background-color: black;
+
+}
